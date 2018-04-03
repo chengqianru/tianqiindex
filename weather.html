@@ -79,7 +79,7 @@
 	</main>
 	<script src="css/jquery.js"></script>
 	<script>
-        $.getScript("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
+        $.getScript("https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
             var data=remote_ip_info;
             var city=data.city;
             $(".now_city_name").html(city);
@@ -92,7 +92,7 @@
         function getWeather(city){
             $(".now_city_name").html(city);
 			$.ajax({
-				url:"http://api.jisuapi.com/weather/query?appkey=c45f8fae32a9aba0&city="+city,
+				url:"https://api.jisuapi.com/weather/query?appkey=c45f8fae32a9aba0&city="+city,
 				dataType:"jsonp",
 				success: function (r) {
 
