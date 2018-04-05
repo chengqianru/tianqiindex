@@ -134,7 +134,7 @@ body{
 	flex-shrink: 0;
 }
 .hours_img{
-	width: 1rem;
+	/*width: 1rem;*/
 	height: 1rem;
 	padding: 0 .4rem;
 	box-sizing: content-box;
